@@ -14,7 +14,7 @@ Some important components:
 * `githubactions` 
 
 ## Purpose of project
-The purpose of this project is to create a python template to use for later projects. The file main.py contains a simple function that is tested in test_main.py. To make sure github actions is working properly, I use a Makefile to test various parts of my code.
+The purpose of this project is to create a python template to use for later projects. The file main.py contains a simple "add" function that is tested in test_main.py. To make sure github actions is working properly, I use a Makefile to test various parts of my code.
 
 ## Preparation
 1. Open codespaces 
@@ -24,3 +24,5 @@ The purpose of this project is to create a python template to use for later proj
 1. Format code `make format`
 2. Lint code `make lint`
 3. Test code `make test`
+
+![Passing test cases image](pass_test.png)
